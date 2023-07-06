@@ -1,0 +1,23 @@
+.tab-item {
+  margin-left: 14px;
+  margin-right: 14px;
+}
+.button {
+  color: white;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0px 14px 8px 14px;
+}
+.active {
+  color: #fec653;
+  border-bottom: 3px solid #fec653;
+}
+@media (min-width: 768px) {
+  .button {
+    font-size: 24px;
+  }
+}
